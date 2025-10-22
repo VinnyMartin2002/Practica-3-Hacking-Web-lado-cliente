@@ -1,3 +1,1 @@
-window.addEventListener('DOMContentLoaded', () => {
-  alert('Hola desde app.js');
-});
+alert('Hola desde codigo.js');
